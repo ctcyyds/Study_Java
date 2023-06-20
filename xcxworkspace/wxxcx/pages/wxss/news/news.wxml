@@ -1,0 +1,7 @@
+<!--pages/wxss/news/news.wxml-->
+<import src="../templates/templates"></import>
+
+<template is="news"></template>
+<template is="news"></template>
+<template is="news"></template>
+<template is="news"></template>

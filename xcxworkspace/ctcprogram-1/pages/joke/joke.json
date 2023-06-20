@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "笑话大全",
+  "usingComponents": {
+    "loadingmore":"/components/loadingmore/loadingmore"
+  }
+}

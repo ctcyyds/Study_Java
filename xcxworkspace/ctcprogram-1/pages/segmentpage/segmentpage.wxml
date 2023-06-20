@@ -1,0 +1,6 @@
+<!--pages/segmentpage/segmentpage.wxml-->
+<segment items="{{items}}" defaultIndex="0">
+    <view slot="0" class="segment-page newPage">最新的内容...</view>
+    <view slot="1" class="segment-page attentionPage">关注的内容...</view>
+    <view slot="2" class="segment-page cityPage">同城的内容...</view>
+</segment>

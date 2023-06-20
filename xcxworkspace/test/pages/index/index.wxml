@@ -1,0 +1,3 @@
+<view class="top">
+  <button type="primary" bindtap="goTo">跳转页面</button>
+</view>

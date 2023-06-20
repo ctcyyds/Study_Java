@@ -1,0 +1,13 @@
+<swiper current="2">
+    <swiper-item style="background:#fff;">0</swiper-item>
+    <swiper-item style="background: #999;">1</swiper-item>
+    <swiper-item style="background: #333;">2</swiper-item>
+</swiper>
+
+<swiper current-item-id="c">
+    <swiper-item item-id="a" style="background:#fff;">0</swiper-item>
+    <swiper-item item-id="b" style="background: #999;">1</swiper-item>
+    <swiper-item item-id="c" style="background: #333;">2</swiper-item>
+</swiper>
+
+<include src="footer.wxml"/>

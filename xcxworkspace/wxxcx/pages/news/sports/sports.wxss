@@ -1,0 +1,16 @@
+/* pages/news/news/news.wxss */
+.message-group{
+    height: 60px;
+    line-height: 60px;
+    padding: 10px;
+    border-bottom: 1px solid #aaa;
+    font-size: 24px;
+}
+.message-group .writer{
+    float :right;
+    font-size:12px;
+    color: blue;
+}
+.message-group .content{
+    float: left;
+}

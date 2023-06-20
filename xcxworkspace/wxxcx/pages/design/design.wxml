@@ -1,0 +1,13 @@
+<!--pages/design/design.wxml-->
+<switch>开关</switch>
+<view></view>
+<!-- 使用 wx:key 来指定列表中项目的唯一的标识符 -->
+<view wx:for="{{lines}}" wx:key="id">
+  <switch>{{item.name}}</switch>
+</view>
+<button bindtap="tapEvent">更新</button>
+<!-- 关键字 *this 代表在 for 循环中的 item 本身 -->
+<view wx:for="{{lines_}}" wx:key="*this">
+  <switch>{{item}}</switch>
+</view>
+<button bindtap="tapEvent_">更新</button>

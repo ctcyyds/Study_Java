@@ -1,0 +1,14 @@
+<template name="news">
+    <view class="new-group">
+    <view class="info">
+        <view>北京时间3月21日，昆明至广州一航班发生事故，伤亡情况未明，搜救队正在搜索是否有生还人员</view>
+        <view class="inf-bottom">
+            <text>中原网 </text>
+             <text>3月22日</text>
+        </view>
+    </view>
+    <view class="thumbnail">
+        <image src="../../photo/R-C.png"></image>
+    </view>
+    </view>
+</template>

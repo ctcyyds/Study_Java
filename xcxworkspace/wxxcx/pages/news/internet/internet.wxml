@@ -1,0 +1,9 @@
+<!--pages/news/internet/internet.wxml-->
+<import src="../../templates/message/message"/>
+<include src="test.wxml"></include>
+
+<template is="message" data="{{content:'乔布斯回归苹果',name:'IT网'}}"></template>
+
+<template is="message" wx:for="{{message}}" data="{{content:item.content,name:item.name}}"></template>
+
+<template is="message" wx:for="{{message}}" data="{{...item}}"></template>

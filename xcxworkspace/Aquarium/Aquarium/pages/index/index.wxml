@@ -1,0 +1,38 @@
+<!-- 显示歌曲播放暂停的小图标 -->
+<view class="player player-{{isPlayingMusic ? 'play' : 'pause'}}" bindtap="play">
+  <image src="/photo/music_icon.png"></image>
+  <image src="/photo/music_play.png"></image>
+</view>
+<!-- 背景图片 -->
+<image class="content" src="/photo/haiyangbeijing.jpg"></image>
+<!-- 内容区域 -->
+<view class="content">
+  <!-- 顶部图片区域 -->
+  <!-- <image class="content-gif" src="/photo/dongtai.gif"></image> -->
+  <!-- 标题 -->
+  <view class="content-title">天诚海洋馆</view>
+  <!-- 海洋馆 -->
+  <view class="content-avatar">
+    <image src="/photo/haiyangguan.jpg"></image>
+  </view>
+  <!-- 老板夫妇电话 -->
+  <view class="content-info">
+    <view class="content-name" bindtap="callGroom">
+      <image src="/photo/tel.png"></image>
+      <view>老板电话</view>
+    </view>
+    <view class="content-wedding">
+      <image src="/photo/haima.jpg"></image>
+    </view>
+    <view class="content-name" bindtap="callBride">
+      <image src="/photo/tel.png"></image>
+      <view>办公电话</view>
+    </view>
+  </view>
+  <!-- 海洋馆信息 -->
+  <view class="content-address">
+    <view>我们诚挚的邀请您来体验我们的海洋馆！</view>
+    <view>时间：2022年5月5日-2022年6月20日</view>
+    <view>地点：深圳市小梅沙海洋世界</view>
+  </view>
+</view>

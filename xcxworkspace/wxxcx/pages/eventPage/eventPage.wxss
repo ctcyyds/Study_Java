@@ -1,0 +1,26 @@
+/* pages/eventPage/eventPage.wxss */
+.articleView{
+    font-size: 24px;
+    height: 70px;
+    padding-top: 10px;
+    border-bottom: 1px solid#aaa;
+}
+.showDate{
+    font-size: 15px;
+    color: chocolate;
+}
+.maxView{
+    background-color: rgb(255, 0, 0);
+    width: 300px;
+    height: 300px;
+}
+.outterView{
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+}
+.innerView{
+    background-color: chartreuse;
+    width: 100px;
+    height: 100px;
+}

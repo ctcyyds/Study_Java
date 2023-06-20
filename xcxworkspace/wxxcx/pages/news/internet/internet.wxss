@@ -1,0 +1,2 @@
+/* pages/news/internet/internet.wxss */
+@import "../../templates/message/message.wxss"

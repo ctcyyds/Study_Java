@@ -1,0 +1,15 @@
+{
+  "openLocationPagePath": "pages/demo/demo",
+    "pages": [
+        "pages/index/index",
+        "pages/demo/demo"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "音乐",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

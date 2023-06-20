@@ -1,0 +1,55 @@
+{
+    "entryPagePath": "pages/wxss/flex/flex",
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/my/my",
+        "pages/design/design",
+        "pages/news/sports/sports",
+        "pages/news/internet/internet",
+        "pages/design/eventPage/eventPage",
+        "pages/eventPage/eventPage",
+        "pages/article/article",
+        "pages/wxss/news/news",
+        "pages/wxss/flex/flex"
+    ],
+    "window": {
+        "backgroundTextStyle": "dark",
+        "navigationBarBackgroundColor": "#cccfff",
+        "backgroundColor": "#cccfff",
+        "navigationBarTextStyle": "black",
+        "enablePullDownRefresh": true
+    },
+    "tabBar": {
+        "color": "#2c2c2c",
+        "selectedColor": "1afa29",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "pages/photo/首页.png",
+                "selectedIconPath": "pages/photo/首页——.png"
+            },
+            {
+                "pagePath": "pages/logs/logs",
+                "text": "明细",
+                "iconPath": "pages/photo/明细.png",
+                "selectedIconPath": "pages/photo/明细——.png"
+            },
+            {
+                "pagePath": "pages/design/design",
+                "text": "设计",
+                "iconPath": "pages/photo/创作.png",
+                "selectedIconPath": "pages/photo/创作——.png"
+            },
+            {
+                "pagePath": "pages/my/my",
+                "text": "我的",
+                "iconPath": "pages/photo/我的.png",
+                "selectedIconPath": "pages/photo/我的——.png"
+            }
+        ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

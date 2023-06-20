@@ -1,0 +1,24 @@
+<!--pages/eventPage/eventPage.wxml-->
+<view bindtap="onViewClick">
+来点我呀！
+</view>
+<view bind:tap="onViewClick">
+再点一下试试！
+</view>
+
+<view wx:for="{{articles}}" wx:key="id" class="articleView" 
+bindtap="onarTicleClick" data-id="{{item.id}}" data-title="{{item.title}}">
+    <view>{{item.title}}</view>
+    <view class="showDate" bindtap="showDate">查看日期</view>
+    <view class="showDate" catchtap="showDate">查看日期</view>
+</view>
+
+<view class="outterView" bindtap="onOutClick" id="outter" data-id="outter">
+    <view class="innerView" catch:tap="onInClick" id="inner" data-id="inner"></view>
+</view>
+<view>******互斥事件测试******</view>
+<view class="maxView" bind:tap="onMaxClick">
+    <view class="outterView" mut-bind:tap="onOutClick" id="outter" data-id="outter">
+         <view class="innerView" mut-bind:tap="onInClick" id="inner" data-id="inner"></view>
+    </view>
+</view>

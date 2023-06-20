@@ -1,0 +1,26 @@
+/* pages/wxss/news/news.wxss */
+.new-group{
+    height: 110px;
+    width: 100%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    border: 1px solid#ccc;
+}
+.new-group .info{
+    float: left;
+    width: 240px;
+}
+.new-group .info .inf-bottom{
+    float: right;
+    color: #666;
+}
+
+.new-group .thumbnail{
+float: right;
+width: 100px;
+height: 90px;
+}
+.new-group .thumbnail image{
+    width: 100%;
+    height: 100%;
+    }

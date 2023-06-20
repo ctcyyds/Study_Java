@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText":"视频广场",
+  "usingComponents": {
+    "segment":"/components/segment/segment"
+  }
+}

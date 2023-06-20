@@ -1,0 +1,8 @@
+<!--pages/wxss/flex/flex.wxml-->
+<view class="outter">
+    <view class="inner=inner1">1</view>
+    <view class="inner=inner2">2</view>
+    <view class="inner=inner3">3</view>
+    <view class="inner=inner4">4</view>
+    <view class="inner=inner">5</view>
+</view>

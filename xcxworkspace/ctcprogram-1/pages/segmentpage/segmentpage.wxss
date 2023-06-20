@@ -1,0 +1,14 @@
+/* pages/segmentpage/segmentpage.wxss */
+.segment-page{
+    width: 100%;
+    height: 400px;
+}
+.newPage{
+    background-color:pink;
+}
+.attentionPage{
+    background-color: orange;
+}
+.cityPage{
+    background-color: orchid;
+}

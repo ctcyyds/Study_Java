@@ -1,0 +1,3 @@
+<!--pages/article/article.wxml-->
+<text>文章内容</text>
+<text>{{article.id}}-{{article.title}}</text>

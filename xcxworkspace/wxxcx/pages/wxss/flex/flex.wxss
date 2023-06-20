@@ -1,0 +1,24 @@
+.outter{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-direction: column-reverse; */
+    flex-wrap: wrap;
+}
+.outter .inner{
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    box-sizing: border-box;
+    border: 1px solid#000;
+}
+/* .outter .inner1{
+    float: left;
+    margin-left: 33px;
+}
+.outter .inner2{
+    float: right;
+    margin-right: 33px;
+} */

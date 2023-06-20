@@ -1,0 +1,58 @@
+{
+    "entryPagePath": "pages/index/index",
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/segmentpage/segmentpage",
+        "pages/my/my",
+        "pages/joke/joke",
+        "pages/news/news"
+    ],
+    "window": {
+        "backgroundTextStyle": "dark",
+        "navigationBarBackgroundColor": "#cccfff",
+        "navigationBarTitleText": "Weixin",
+        "navigationBarTextStyle": "black",
+        "enablePullDownRefresh": true,
+        "backgroundColor": "#cccfff"
+    },
+    "tabBar": {
+        "color": "#2c2c2c",
+        "backgroundColor": "#eee",
+        "position": "bottom",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "/photo/首页.png",
+                "selectedIconPath": "/photo/首页——.png"
+            },
+            {
+                "pagePath": "pages/logs/logs",
+                "text": "日志",
+                "iconPath": "/photo/明细.png",
+                "selectedIconPath": "/photo/明细——.png"
+            },
+            {
+                "pagePath": "pages/segmentpage/segmentpage",
+                "text": "视频",
+                "iconPath": "/photo/视频.png",
+                "selectedIconPath": "/photo/视频 ----.png"
+            },
+            {
+                "pagePath": "pages/joke/joke",
+                "text": "笑话",
+                "iconPath": "/photo/笑话.png",
+                "selectedIconPath": "/photo/笑话 (1).png"
+            },
+            {
+                "pagePath": "pages/my/my",
+                "text": "我的",
+                "iconPath": "/photo/我的.png",
+                "selectedIconPath": "/photo/我的——.png"
+            }
+        ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

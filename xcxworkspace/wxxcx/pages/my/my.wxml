@@ -1,0 +1,22 @@
+<!--pages/my/my.wxml-->
+<view>{{message}}</view>
+<view wx:if="{{ctc}}">**************</view>
+<view Hidden="{{flag ? true : false}}"> Hidden </view>
+****字符串运算****
+<view>{{'Hello'+a+b}}</view>
+<view>{{a+b+'Hello'}}</view>
+<view>{{'Hello'+name}}</view>
+****数据路径运算****
+<view>{{object.key}}{{object.value}}</view>
+****三元运算****
+<view>{{a>b?a:b}}</view>
+****列表渲染****
+<view wx:for="{{array}}">
+下标：{{index}} ID：{{item.id}} Name：{{item.name}}
+</view>
+****九九乘法表****
+<view class="row" wx:for="{{[1,2,3,4,5,6,7,8,9]}}"wx:for-item="row">
+    <view class="col" wx:for="{{[1,2,3,4,5,6,7,8,9]}}"wx:for-item="col" wx:if="{{col <= row}}">
+{{col}}*{{row}}={{col*row}}
+  </view>
+</view>

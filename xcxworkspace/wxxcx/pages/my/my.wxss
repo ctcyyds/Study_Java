@@ -1,0 +1,8 @@
+/* pages/my/my.wxss */
+.row{
+  display: flex;
+  font-size: 9px;
+}
+.row .col{
+  width: 35.7px;
+}

@@ -1,0 +1,65 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/picture/picture",
+        "pages/video/video",
+        "pages/map/map",
+        "pages/my/my"
+    ],
+    "permission": {
+        "scope.userLocation": {
+            "desc": "你的位置信息将用于小程序位置接口的效果展示"
+        }
+    },
+    "requiredBackgroundModes": [
+        "audio",
+        "location"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Weixin",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "tabBar": {
+        "color": "#999",
+        "backgroundColor": "#fafafa",
+        "borderStyle": "black",
+        "position": "bottom",
+        "selectedColor": "#ff4c91",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "/photo/yaoqinghan.png",
+                "selectedIconPath": "/photo/yaoqinghan1.png"
+            },
+            {
+                "pagePath": "pages/picture/picture",
+                "text": "照片",
+                "iconPath": "/photo/zhaopian.png",
+                "selectedIconPath": "/photo/zhaopian1.png"
+            },
+            {
+                "pagePath": "pages/video/video",
+                "text": "视频",
+                "iconPath": "/photo/shipin.png",
+                "selectedIconPath": "/photo/shipin1.png"
+            },
+            {
+                "pagePath": "pages/map/map",
+                "text": "地址",
+                "iconPath": "/photo/dizhi.png",
+                "selectedIconPath": "/photo/dizhi1.png"
+            },
+            {
+                "pagePath": "pages/my/my",
+                "text": "我的",
+                "iconPath": "/photo/me.png",
+                "selectedIconPath": "/photo/me1.png"
+            }
+        ]
+    }
+}

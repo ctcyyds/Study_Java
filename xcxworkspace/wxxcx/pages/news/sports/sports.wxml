@@ -1,0 +1,9 @@
+<!--pages/news/news/news.wxml-->
+<view class="message-group">
+    <text class="content">刘翔有望当选短跑教练</text>
+    <text class="writer">体育网</text>
+</view>
+<view class="message-group">
+    <text class="content">中国男足惨败越南</text>
+    <text class="writer">体育网</text>
+</view>

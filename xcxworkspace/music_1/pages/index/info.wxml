@@ -1,0 +1,65 @@
+<!-- <view style="background-color: #66ccff; color:#000; height:100%;">
+    info
+</view> -->
+
+<!-- 轮播图 -->
+<scroll-view class="content-info" scroll-y>
+    <!-- <view style="background: #eee;height: 1000px;"></view>
+    <view>已到达底部</view> -->
+    <swiper class="content-info-slide" indicator-color="rgba(255,255,255.5)"
+    indicator-active-color="#fff" indicator-dots circular autoplay>
+        <swiper-item>
+            <image src="https://y.qq.com/music/common/upload/MUSIC_FOCUS/4312747.jpg?max_age=2592000"/>
+        </swiper-item>
+        <swiper-item>
+            <image src="https://y.qq.com/music/common/upload/MUSIC_FOCUS/4316362.jpg?max_age=2592000"/>
+        </swiper-item>
+        <swiper-item>
+            <image src="https://y.qq.com/music/common/upload/MUSIC_FOCUS/4315930.jpg?max_age=2592000"/>
+        </swiper-item>
+    </swiper>
+    <!-- 功能按钮 -->
+    <view class="content-info-portal">
+        <view>
+            <image src="/photo/fm.png"/>
+            <text>私人FM</text>
+        </view>
+        <view>
+            <image src="/photo/tuijian.png"/>
+            <text>每日歌曲推荐</text>
+        </view>
+        <view>
+            <image src="/photo/paihangbang.png"/>
+            <text>云音乐新歌榜</text>
+        </view>
+    </view>
+    <!-- 热门音乐 -->
+    <view class="content-info-list">
+        <view class="list-inner">
+            <view class="list-item">
+                <image src="https://tse4-mm.cn.bing.net/th/id/OIP-C.eR-CRE6KJ6h25dnMBnvwxQHaEo?pid=ImgDet&rs=1"/>
+                <view>星游记</view>
+            </view>
+            <view class="list-item">
+                <image src="https://imgessl.kugou.com/stdmusic/20150718/20150718143125208700.jpg"/>
+                <view>时间都去哪了</view>
+            </view>
+            <view class="list-item">
+                <image src="https://imgessl.kugou.com/stdmusic/20200723/20200723101711174460.jpg"/>
+                <view>逆战</view>
+            </view>
+            <view class="list-item">
+                <image src="https://imgessl.kugou.com/stdmusic/20200909/20200909123219737311.jpg"/>
+                <view>此生不换</view>
+            </view>
+            <view class="list-item">
+                <image src="https://imgessl.kugou.com/stdmusic/20150718/20150718065653668323.jpg"/>
+                <view>小酒窝</view>
+            </view>
+            <view class="list-item">
+                <image src="https://imgessl.kugou.com/stdmusic/20160908/20160908035159476194.jpg"/>
+                <view>不要说话</view>
+            </view>
+        </view>
+    </view>
+</scroll-view>

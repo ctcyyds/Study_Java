@@ -1,0 +1,3 @@
+<view>
+    谁是世界上最有种的男人---<text>{{userName}}</text>
+</view>
